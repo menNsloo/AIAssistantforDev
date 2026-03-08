@@ -71,7 +71,7 @@ Run the API
 dotnet run
 
 Load repository:
-POST /api/load-repo
+POST /api/repo/process
 
 Ask questions:
 POST /api/ask
