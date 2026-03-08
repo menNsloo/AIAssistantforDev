@@ -1,5 +1,15 @@
 # Local RAG Code Assistant
 
+
+## Architecture
+
+The system follows a Retrieval Augmented Generation pipeline.
+
+![Architecture](docs/architecture.png)
+
+
+## Description
+
 An AI-powered codebase question answering system that allows users to ask natural language questions about a repository.
 
 Built using Retrieval Augmented Generation (RAG) with local LLM inference via Ollama.
@@ -30,13 +40,6 @@ Core Concepts
 - Vector embeddings
 - Cosine similarity search
 - Semantic code search
-
-
-## Architecture
-
-The system follows a Retrieval Augmented Generation pipeline.
-
-![Architecture](docs/architecture.png)
 
 
 ## How It Works
@@ -76,6 +79,6 @@ POST /api/ask
 
 ## Example
 
-![Ask API](docs/API-Repo-Load-Screenshot.png)
+![Ask API](docs/load-repo-demo.png)
 
-![Ask API](docs/API-Ask-LLMResponse-Screenshot.png)
+![Ask API](docs/ask-api-demo.png)
