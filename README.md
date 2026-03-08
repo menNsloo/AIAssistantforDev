@@ -5,7 +5,7 @@
 
 The system follows a Retrieval Augmented Generation pipeline.
 
-![Architecture](docs/architecture.png)
+![Architecture](AIAssistantforDev/docs/architecture.png)
 
 
 ## Description
@@ -79,6 +79,6 @@ POST /api/ask
 
 ## Example
 
-![Ask API](docs/load-repo-demo.png)
+![Ask API](AIAssistantforDev/docs/load-repo-demo.png)
 
-![Ask API](docs/ask-api-demo.png)
+![Ask API](AIAssistantforDev/docs/ask-api-demo.png)
