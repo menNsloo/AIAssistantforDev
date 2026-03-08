@@ -17,9 +17,9 @@ Built using Retrieval Augmented Generation (RAG) with local LLM inference via Ol
 
 Ask questions about a codebase like:
 
-• Where is the event handler implemented?
-• Which file contains the API call?
-• Where is authentication handled?
+- Where is the event handler implemented?
+- Which file contains the API call?
+- Where is authentication handled?
 
 The system retrieves relevant code chunks using semantic search and generates an answer using a local LLM.
 
